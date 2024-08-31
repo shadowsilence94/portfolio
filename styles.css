@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e2a38; /* Navy Blue */
+  color: #ffffff; /* White */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #1e2a38;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: flex-start; /* Align text to the right of the image */
+}
+
+.profile-image {
+    width: 100px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 10%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    margin-right: 20px; /* Adds space between the image and the text */
+    border: 3px solid #ffffff; /* Adds a gold border around the image */
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header-text p {
+    font-size: 1.2em;
+    color: #FFD700; /* Gold */
+    margin-top: 5px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #333333;
+  padding: 10px 0;
+}
+
+.nav-links {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #7a8ee8;
+  text-decoration: none; /* No underline by default */
+  font-weight: bold;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #7eb167;
+  text-decoration: none; /* Underline on hover */
+}
+
+/* Section Styles */
+.section {
+  padding: 50px 0;
+  border-bottom: 1px solid #333333;
+}
+
+.section h2 {
+  font-size: 2.5em;
+  border-bottom: 2px solid #ffd700;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Experience Styles */
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-item h5 {
+  font-size: 1.8em;
+  color: #988b36;
+  margin-bottom: 10px;
+}
+
+/* Link Decoration in Sections */
+a {
+  color: #ffd700; /* Gold color for links */
+  text-decoration: none; /* No underline by default */
+  font-weight: bold;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #b0ed7b; /* Change color on hover */
+  text-decoration: none; /* Underline on hover */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: #ffffff;
+}
